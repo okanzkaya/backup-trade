@@ -1,0 +1,44 @@
+.footer-logo {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.line {
+  width: 80%;
+  margin: 0.5em auto;
+  background-color: #d9d9d9;
+  height: 1px;
+}
+
+.footer-item {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto;
+}
+
+.footer-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.footer-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-content a:hover {
+  color: blueviolet;
+}
+
+.footnote {
+  margin-top: 1.5em;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 820px) {
+    .footer-item{
+        grid-template-columns: auto auto auto auto;
+    }
+}

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quantico", sans-serif;
+}
+
+.mainLoginInput::-webkit-input-placeholder {
+  font-family: "Quantico", sans-serif;
+}
+
+.mainLoginInput:-ms-input-placeholder {
+  font-family: "Quantico", sans-serif;
+}
+
+.mainLoginInput:-moz-placeholder {
+  font-family: "Quantico", sans-serif;
+}
+
+.mainLoginInput::-moz-placeholder {
+  font-family: "Quantico", sans-serif;
+}
